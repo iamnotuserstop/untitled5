@@ -1,0 +1,19 @@
+import java.lang.Math;
+public class worstcase{
+public static void main(String args[]){
+int x=5,y=2,n,lbx=20,ubx=40,lby=20,uby=40;
+int nomx,nomy;
+nomx=(lbx+ubx)/2;
+nomy=nomx;
+System.out.println("TEST POINTS"+(lbx)+" "+(lbx+1)+" "+(nomx)+" "+(lbx-1)+" "+(ubx));
+System.out.println("TEST POINTS"+(lby)+" "+(lby+1)+" "+(nomy)+" "+(lby-1)+" "+(uby));
+double tot=Math.pow(5,2);
+int[]xar={20,21,30,39,40};
+int[]yar={20,21,30,39,40};
+int k=1;
+for(int i=0;i<5;i++){
+for(int j=0;j<5;j++){
+System.out.println(" "+k+" "+yar[j]+" "+xar[j]);
+}}
+}}
+
